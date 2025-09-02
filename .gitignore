@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.csv
+!data/uniformes_ignifugos.csv
+models/
+!models/.gitkeep
+results/
+.vscode/
+.idea/
+*.ipynb_checkpoints

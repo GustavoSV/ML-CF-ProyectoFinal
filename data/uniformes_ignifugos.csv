@@ -1,0 +1,16 @@
+tipo_uniforme,tipo_trabajo,horas_mensuales,lavados_mensuales,exposicion_calor,exposicion_quimicos,humedad_ambiente,meses_uso,estado_reemplazo
+Nomex,Soldadura,160,6,Alta,1,60,2,0
+Modacrilico,Mantenimiento,160,4,Media,1,70,4,1
+Cotton_Flame_Retardant,Operacion,160,5,Media,0,65,3,1
+Nomex,Inspeccion,160,4,Baja,0,50,4,0
+Modacrilico,Soldadura,150,7,Alta,1,75,1,0
+Nomex,Mantenimiento,160,4,Media,1,68,4,1
+Cotton_Flame_Retardant,Operacion,160,3,Media,0,55,2,0
+Nomex,Soldadura,160,6,Alta,1,80,3,1
+Modacrilico,Inspeccion,160,2,Baja,0,45,2,0
+Cotton_Flame_Retardant,Mantenimiento,160,4,Media,0,60,5,1
+Nomex,Operacion,160,6,Media,1,72,3,1
+Modacrilico,Inspeccion,160,2,Baja,0,50,2,0
+Cotton_Flame_Retardant,Soldadura,150,3,Alta,1,78,3,1
+Nomex,Mantenimiento,160,5,Media,1,66,5,1
+Modacrilico,Operacion,160,4,Baja,0,58,4,1
