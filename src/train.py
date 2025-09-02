@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, classification_report
 from sklearn.pipeline import Pipeline
+from mockdata import load_mockdata
 
 # Importar funciones de preprocess
 from preprocess import load_data, create_features, build_preprocessor
@@ -18,6 +19,12 @@ def main():
     # 1. Cargar y procesar datos
     data_path = os.path.join(os.path.dirname(__file__), "..", "data", "uniformes_ignifugos.csv")
     df = load_data(data_path)
+    df_large = load_mockdata()
+
+    # Concatenamos con el dataset original
+    df = pd.concat([df, df_large], ignore_index=True)
+    print("✅ Datos cargados y combinados. Shape:", df.shape)
+
     df = create_features(df)
     
     # 2. Definir variables
